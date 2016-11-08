@@ -32,7 +32,7 @@
     "autoload-dev": {
         "psr-4": {
             "ApplicationTest\\": "module/Application/test/",
-            "AlbumTest\\": "module/Ablum/test/"
+            "AlbumTest\\": "module/Album/test/"
         }
     },
     "extra": [],
@@ -49,6 +49,7 @@
         "test": "phpunit"
     },
     "require-dev": {
-        "zendframework/zend-developer-tools": "^1.1"
+        "zendframework/zend-developer-tools": "^1.1",
+        "zendframework/zend-test": "^3.0"
     }
 }
