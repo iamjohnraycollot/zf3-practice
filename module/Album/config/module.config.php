@@ -3,7 +3,7 @@
 namespace Album;
 
 use Zend\Router\Http\Segment;
-use Zend\ServiceManager\Factory\InvokableFactory;
+// use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
@@ -24,11 +24,11 @@ return [
             ],
         ],
     ],
-    'controllers' => [
-        'factories' => [
-            Controller\AlbumController::class => InvokableFactory::class,
-        ],
-    ],
+    // 'controllers' => [
+    //     'factories' => [
+    //         Controller\AlbumController::class => InvokableFactory::class,
+    //     ],
+    // ],
     'view_manager' => [
         'template_path_stack' => [
             'album' => __DIR__ . '/../view',

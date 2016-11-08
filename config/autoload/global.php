@@ -12,5 +12,10 @@
  */
 
 return [
-    // ...
+    'db' => [
+        'driver' => 'Pdo',
+        'dsn'    => 'mysql:dbname=zendframework3;host=localhost;port:8081;charset=utf8',
+        'username' => 'root',
+        'password' => '',
+    ],
 ];
